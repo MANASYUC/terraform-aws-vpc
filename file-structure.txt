@@ -1,0 +1,8 @@
+terraform-aws-vpc/
+├── provider.tf          # AWS provider config
+├── vpc.tf               # VPC and subnets
+├── gateways.tf          # Internet gateway, NAT gateway, elastic IP
+├── routing.tf           # Route tables and associations
+├── security.tf          # Security groups and Network ACLs
+└── endpoints.tf         # VPC endpoints
+
